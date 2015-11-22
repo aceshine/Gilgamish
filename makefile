@@ -25,3 +25,4 @@ dynamic.o: dynamic.cpp
 clean:
 	rm -f ./main ./libstatic.a ./libdynamic.so ./*.o
 	$(MAKE) -C ./algorithm clean
+	$(MAKE) -C ./interface clean
